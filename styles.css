@@ -1,0 +1,85 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Special Elite", cursive;
+}
+.section {
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid #444;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+h1{
+  color: #e63946;
+}
+a {
+  color: #e63946;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* estilo header */
+.imgtitulo{
+    max-width: 18vw;
+}
+
+.pdf{
+    width: 100%;
+      height: 600px;
+      border: none;
+}
+/* carrusel */
+.carousel-item img{
+  max-height: 640px; /* Altura máxima */
+  width: auto; /* Ajusta la anchura automáticamente */
+}
+.h5slider{
+  font-family: 'Anton SC', sans-serif; 
+  font-size: 3vw; 
+  color: #000000;
+  background-color: #e0c52fd0;
+}
+
+.parrafocarrusel{
+  color: black; 
+  background-color: #e0c52fd0 ; 
+  font-family: 'Oswald', sans-serif; 
+  font-size: 1.5vw;
+}
+/* Cambiar el color normal de los indicadores */
+.carousel-indicators [data-bs-target] {
+  background-color: white; /* Color normal */
+}
+
+/* Cambiar el color de los indicadores activos */
+.carousel-indicators .active {
+  background-color: #e0c52f; /* Color del indicador activo */
+}
+
+
+.carousel-control-next-icon {
+  background-color: #e0c52f; /* Agregar el color de fondo deseado */
+  border-radius: 50%; /* Opcional: hacer el fondo redondo */
+  width: 50px; /* Ajusta el tamaño si es necesario */
+  height: 50px;
+}
+
+.carousel-control-prev-icon {
+  background-color: #e0c52f; /* Agregar el color de fondo deseado */
+  border-radius: 50%; /* Opcional: hacer el fondo redondo */
+  width: 50px; /* Ajusta el tamaño si es necesario */
+  height: 50px;
+}
+
+.bg-body-tertiary{
+  background-color:  #919191 !important;
+}
+
+.flecha{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
